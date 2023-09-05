@@ -24,7 +24,7 @@ public class HomeControllerTests
         HomeController homeController = new HomeController(mock.Object);
 
         // Act.
-        ProductListViewModel? model = (homeController.Index() as ViewResult)?.ViewData.Model as ProductListViewModel;
+        ProductListViewModel? model = (homeController.Index(category: null, productPage:1) as ViewResult)?.ViewData.Model as ProductListViewModel;
     
         // Assert.
         Product[] modelArray = model?.Products.ToArray() ?? Array.Empty<Product>();
@@ -50,7 +50,7 @@ public class HomeControllerTests
         homeController.PageSize = 3;
 
         // Act.
-        ProductListViewModel? Model = (homeController.Index(2) as ViewResult)?.ViewData.Model as ProductListViewModel;
+        ProductListViewModel? Model = (homeController.Index(category: null, productPage:2) as ViewResult)?.ViewData.Model as ProductListViewModel;
         Product[] modelArray = Model?.Products.ToArray() ?? Array.Empty<Product>();
         
         // Assert
@@ -77,7 +77,7 @@ public class HomeControllerTests
         HomeController homeController = new(mock.Object) {PageSize = 3};
 
         // Act.
-        ProductListViewModel? result = (homeController.Index(2) as ViewResult)?.ViewData.Model as ProductListViewModel;
+        ProductListViewModel? result = (homeController.Index(category: null, productPage:2) as ViewResult)?.ViewData.Model as ProductListViewModel;
     
         // Assert.
         PagingInfo? pageInfo = result?.PagingInfo;
@@ -85,5 +85,58 @@ public class HomeControllerTests
         Assert.Equal(2, pageInfo?.CurrentPage);
         Assert.Equal(2, pageInfo?.TotalPages);
         Assert.Equal(5, pageInfo?.TotalItems);  
+    }
+
+    [Fact]
+    public void Can_Filter_Products()
+    {
+        // Arrange
+        Mock<IStoreRepository> mock = new();
+        mock.Setup(p => p.Products).Returns((new Product[]
+        {
+            new Product {Name = "P1", Category = "Odd"},
+            new Product {Name = "P2", Category = "Even"},
+            new Product {Name = "P3", Category = "Odd"},
+            new Product {Name = "P4", Category = "Even"},
+            new Product {Name = "P5", Category = "Odd"},
+            new Product {Name = "P6", Category = "Even"}
+        }).AsQueryable<Product>);
+        HomeController homeController = new HomeController(mock.Object);
+        homeController.PageSize = 3;
+
+        // Act
+        Product[] products = ((homeController.Index(category: "Odd", productPage: 1) as ViewResult)?.ViewData.Model as ProductListViewModel)?.Products.ToArray()!;
+
+        // Assert
+        Assert.Equal(3, products.Length);
+        Assert.True("Odd" == products[0].Category);
+        Assert.True("Odd" == products[1].Category);
+        Assert.True("Odd" == products[2].Category);
+    }
+
+    [Fact]
+    public void Generate_Specific_Category_Product_Count()
+    {
+        // Arrange
+        Mock<IStoreRepository> mock = new();
+        mock.Setup(p => p.Products).Returns((new Product[]
+        {
+            new Product {Category = "A"},
+            new Product {Category = "B"},
+            new Product {Category = "A"},
+            new Product {Category = "D"},
+            new Product {Category = "A"},
+            new Product {Category = "A"},
+            new Product {Category = "A"},
+            new Product {Category = "A"},
+
+        }).AsQueryable<Product>);
+        HomeController homeController = new(mock.Object);
+
+        // Act
+        ProductListViewModel result = (homeController.Index(category:null, productPage: 1) as ViewResult)?.ViewData.Model as ProductListViewModel ?? new ProductListViewModel();
+    
+        // Assert
+        Assert.Equal(8, result.PagingInfo.TotalItems);
     }
 }

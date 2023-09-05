@@ -16,8 +16,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Yoctoscript\source\vs-repos\ASP.NET.Core.Web.App.MVC.4-SportsStore\SportsSln\SportsStore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Pages/_CartLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0NhcnRMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Views/Shared/Components/NavigationMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTmF2aWdhdGlvbk1lbnVcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Yoctoscript/source/vs-repos/ASP.NET.Core.Web.App.MVC.4-SportsStore/SportsSln/SportsStore/Views/Shared/ProductSummary.cshtml]
