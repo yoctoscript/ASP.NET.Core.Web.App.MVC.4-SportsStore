@@ -7970,11 +7970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+      "projectUniqueName": "c:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
       "projectName": "SportsStore.Tests",
-      "projectPath": "C:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+      "projectPath": "c:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
       "packagesPath": "C:\\Users\\Yoctoscript\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\obj\\",
+      "outputPath": "c:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -7996,8 +7996,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {
-              "projectPath": "C:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj"
+            "c:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj": {
+              "projectPath": "c:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore\\SportsStore.csproj"
             }
           }
         }

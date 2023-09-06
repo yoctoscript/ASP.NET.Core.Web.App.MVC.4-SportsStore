@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycfMCijxakcFM9tcgUClo/m0uNrYRuJ7HLM7Il6UQCXD8+oq0eL7McVaos0BxZQ2vI4Sla84aXYIiLCgTWy0pg==",
+  "dgSpecHash": "ob6MP8JH0n0GHVg/ua+dHn8blkEudl7WNKXuIRGi8+V+7h18UsJHlcrDCiUsyNOs9nLgVCy3Y06fZso73X1wgg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
+  "projectFilePath": "c:\\Users\\Yoctoscript\\source\\vs-repos\\ASP.NET.Core.Web.App.MVC.4-SportsStore\\SportsSln\\SportsStore.Tests\\SportsStore.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yoctoscript\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Yoctoscript\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
