@@ -1,2 +1,8 @@
-# ASP.NET.Core.Web.App.MVC.4-SportsStore
-Web application using ASP.NET Core 6 following the Model-View-Controller design pattern. (Chapter 7) (Adam Freeman - Pro ASP.NET Core 6)
+[![N|Solid](https://i.pinimg.com/originals/64/92/2c/64922c0dc166ecb9e6fb7f09ddce6306.png)](https://i.pinimg.com/originals/64/92/2c/64922c0dc166ecb9e6fb7f09ddce6306.png)
+[![N|Solid](https://i.pinimg.com/originals/3b/e3/8b/3be38bf42c92de7954eef11fe84b06ef.png)](https://i.pinimg.com/originals/3b/e3/8b/3be38bf42c92de7954eef11fe84b06ef.png)
+[![N|Solid](https://i.pinimg.com/originals/59/f1/e8/59f1e8e23a30068bde7fd9f7e5a19b31.png)](https://i.pinimg.com/originals/59/f1/e8/59f1e8e23a30068bde7fd9f7e5a19b31.png)
+[![N|Solid](https://i.pinimg.com/originals/d2/62/88/d26288b47f2bda4118312f07f560c7e9.png)](https://i.pinimg.com/originals/d2/62/88/d26288b47f2bda4118312f07f560c7e9.png)
+[![N|Solid](https://i.pinimg.com/originals/55/f0/62/55f062a6088a8690e6f1ac744b25542b.png)](https://i.pinimg.com/originals/55/f0/62/55f062a6088a8690e6f1ac744b25542b.png)
+[![N|Solid](https://i.pinimg.com/originals/b0/3d/dd/b03dddc4897292b41eb4d9ec9772a48c.png)](https://i.pinimg.com/originals/b0/3d/dd/b03dddc4897292b41eb4d9ec9772a48c.png)
+[![N|Solid](https://i.pinimg.com/originals/a3/49/cc/a349cc8f682ec962a1f251a224dead28.png)](https://i.pinimg.com/originals/a3/49/cc/a349cc8f682ec962a1f251a224dead28.png)
+[![N|Solid](https://i.pinimg.com/originals/f6/90/e9/f690e94f742aba26eee48b9190906362.png)](https://i.pinimg.com/originals/f6/90/e9/f690e94f742aba26eee48b9190906362.png)
