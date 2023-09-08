@@ -58,3 +58,4 @@ C:\Users\Yoctoscript\source\vs-repos\ASP.NET.Core.Web.App.MVC.4-SportsStore\Spor
 C:\Users\Yoctoscript\source\vs-repos\ASP.NET.Core.Web.App.MVC.4-SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\libman.json
 C:\Users\Yoctoscript\source\vs-repos\ASP.NET.Core.Web.App.MVC.4-SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\SportsStore.staticwebassets.runtime.json
 C:\Users\Yoctoscript\source\vs-repos\ASP.NET.Core.Web.App.MVC.4-SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\ref\SportsStore.dll
+C:\Users\Yoctoscript\source\vs-repos\ASP.NET.Core.Web.App.MVC.4-SportsStore\SportsSln\SportsStore\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
